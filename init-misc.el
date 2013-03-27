@@ -216,7 +216,7 @@
 ;; max frame, @see https://github.com/rmm5t/maxframe.el
 (require 'maxframe)
 ;; (setq mf-max-width 1600) ;; Pixel width of main monitor. for dual-lcd only
-(add-hook 'window-setup-hook 'maximize-frame t)
+;REMOVE (add-hook 'window-setup-hook 'maximize-frame t)
 
 ;; command-frequency
 ;; (require 'command-frequency)
