@@ -135,4 +135,3 @@
 (setq-default ac-sources '(ac-source-yasnippet ac-source-abbrev ac-source-dictionary ac-source-words-in-same-mode-buffers))
 (add-hook 'c-mode-common-hook 'ac-cc-mode-setup)
 (add-to-list 'ac-modes 'objc-mode)
-(message "anchor #11")
